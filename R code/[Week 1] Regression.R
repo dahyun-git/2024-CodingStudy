@@ -101,3 +101,4 @@ new_data$predictions <- predict(m3, new_data, type = "response")
 ggplot(new_data, aes(x = H_Temp, y = predictions)) +
   geom_line() +
   labs(title = "On Sunny Sunday")
+# the higher the temp is, the more number of bicycles are used
